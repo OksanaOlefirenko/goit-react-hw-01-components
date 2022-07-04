@@ -19,7 +19,7 @@ export const Status = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: ${p => p.status ? "green" : "red"};
+  background-color: ${p => (p.status ? 'green' : 'red')};
 `;
 
 export const Avatar = styled.img`
