@@ -13,7 +13,6 @@ export const Statistics = ({ title, stats }) => {
     <Container>
       {title && <Title>{title}</Title>}
       <StatsList>
-        {' '}
         {stats.map(({ id, label, percentage }) => (
           <StatsItem key={id}>
             <Label>{label}</Label>
